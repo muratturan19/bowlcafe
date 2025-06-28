@@ -1,0 +1,20 @@
+{
+  "name": "expenseapp",
+  "version": "1.0.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios"
+  },
+  "dependencies": {
+    "expo": "^50.0.0",
+    "react": "18.2.0",
+    "react-native": "0.73.0",
+    "expo-sqlite": "^11.0.0",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/stack": "^6.3.16",
+    "node-fetch": "^3.3.2"
+  }
+}
